@@ -1,0 +1,26 @@
+Key,Description,Data Type
+spotify_id,The unique identifier for the song in the Spotify database.,str
+name,The title of the song.,str
+artists,"The name(s) of the artist(s) associated with the song. Do split(', ') to convert to a list",str
+daily_rank,The daily rank of the song in the top 50 list.,int
+daily_movement,The change in rankings compared to the previous day.,int
+weekly_movement,The change in rankings compared to the previous week.,int
+country,"The ISO code of the country of the Top 50 Playlist. If Null, then the playlist if 'Global Top 50'.",str
+snapshot_date,The date on which the data was collected from the Spotify API.,str
+popularity,A measure of the song's current popularity on Spotify.,int
+is_explicit,Indicates whether the song contains explicit lyrics.,bool
+duration_ms,The duration of the song in milliseconds.,int
+album_name,The title of the album the song belongs to.,str
+album_release_date,The release date of the album the song belongs to.,str
+danceability,A measure of how suitable the song is for dancing based on various musical elements.,float
+energy,A measure of the intensity and activity level of the song.,float
+key,The key of the song.,int
+loudness,The overall loudness of the song in decibels.,float
+mode,Indicates whether the song is in a major or minor key.,int
+speechiness,A measure of the presence of spoken words in the song.,float
+acousticness,A measure of the acoustic quality of the song.,float
+instrumentalness,A measure of the likelihood that the song does not contain vocals.,float
+liveness,A measure of the presence of a live audience in the recording.,float
+valence,A measure of the musical positiveness conveyed by the song.,float
+tempo,The tempo of the song in beats per minute.,float
+time_signature,The estimated overall time signature of the song.,int
